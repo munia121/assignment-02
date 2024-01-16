@@ -465,8 +465,11 @@ media Query section
     }
     .section-container-img img{
         width: 80%;
-        margin-left: 50px;
-        
+        margin: auto;
+        margin-left: 10%;
+    }
+    .section-container-img{
+        width: 100%;
     }
     .choose-container-des{
         width: 90%;
@@ -482,20 +485,21 @@ media Query section
     }
     .choose-container-all{
         flex-direction: column;
-        width: 335px;
+        width: 100%;
         
     }
     .choose-container-info, .choose-des{
         width: 100%;
     }
-    .choose-content ,.choose-content-2{
-        width: 309px;
-        height: 100%;
-        margin-left: 50px;
+    .choose-container-title{
+        margin: auto;
     }
-    .choose-content-2{
+    
+    .choose-content-2 ,.choose-content{
         width: 309px;
         height: 100%;
+        margin: auto;
+        margin-top: 50px;
     }
     .input-section-container{
         flex-direction: column;
@@ -541,10 +545,11 @@ media Query section
     }
     .destination-img{
         flex-direction: column;
+        padding: 20px;
     }
     .destination-img img{
-        width: 80%;
-        margin-left: 55px;
+        width: 100%;
+        margin: auto;
         height: 200px;
     }
     .grid-info{
@@ -553,43 +558,42 @@ media Query section
     .grid-title, .grid-info-des{
         width: 90%;
         font-size: 20px;
-        
     }
     
     .maldiv{
         top: 100px;
-        left: 220px;
+        left: 40%;
     }
     .indonesia{
         top: 310px;
-        left: 220px;
+        left: 40%;
     }
     .srilanka{
-        top: 90px;
-        left: 220px;
+        top: 100px;
+        left: 40%;
     }
     .america{
         top:320px ;
-        left: 210px;
+        left: 35%;
     }
     .kasmir{
-        top: 535px;
-        right: 210px;
+        top: 545px;
+        right: 43%;
     }
     .bangladesh{
         top: 100px;
-        left: 220px;
+        left: 35%;
     }
     .bandarban{
         position: absolute;
         top: 310px;
-        right: 210px;
+        right: 35%;
     }
     .own-conten-title, .won-btn, .won-content-description{
         margin-left: 0;
     }
     .won-btn{
-        margin-left: 200px;
+        margin-left: 20 0px;
     }
 }
 
