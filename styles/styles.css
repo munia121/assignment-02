@@ -162,68 +162,23 @@ ul .home{
 }
 /****************Choose Your Destination*************** */
 
-/* .bangladesh img{
-    width: 473px;
-height: 300px;
 
-}
-.maldiv{
-    grid-area: maldiv;
-    margin-left: px;
-}
-.indonesia{
-    grid-area: indonesia;
-    margin-left: 155px;
-}
-.srilanka{
-    grid-area: srilanka;
-    margin-left: 150px;
-}
-.north-america{
-    grid-area: north-america;
-    margin-left:-100px;
-}
-.kasmir{
-    grid-area: kasmir;
-    width: 274px;
-    height: 286px;
-    margin-right: 100px
-}
-.bangladesh{
-    grid-area: bangladesh;
-    width:473px ;
-    margin-left: 150px;
-
-}
-.bandarban{
-    grid-area: bandarban;
-} */
-
-/* .container{
-    display: grid;
+.destination-img{
+    margin-top: 50px;
+    display: flex;
     gap: 20px;
-    grid-template-areas: 
-    "header   header  header  header"
-    "nav      main    main    sidebar"
-    "nav      main    main    advertise"
-    "footer   footer  footer  footer"
-    ;
-} */
+    margin-bottom: 15px;
+    justify-content: center;
 
-
-/* .img-area-container{
-    
-    display: grid;
-    gap: 20px;
-    grid-template-areas: 
-    "maldiv indonesia  indonesia indonesia"
-
-    "srilanka srilanka north-america  kasmir"
-
-    "bangladesh bangladesh bandarban bandarban"
-    ;
-    
-} */
+}
+.grid-info{
+    text-align: center;
+    margin-top: 100px;
+}
+.grid-info-des{
+    width: 643px;
+    margin: 0 auto;
+}
 /************Why Choose Us part ************/
 .choose-container-info{
     text-align: center;
@@ -507,6 +462,22 @@ media Query section
     }
     .horizontal{
         width: 100%;
+    }
+    .destination-img{
+        flex-direction: column;
+    }
+    .destination-img img{
+        width: 80%;
+        margin: auto;
+        height: 200px;
+    }
+    .grid-info{
+        width: 100%;
+    }
+    .grid-title, .grid-info-des{
+        width: 90%;
+        font-size: 20px;
+        
     }
 }
 
