@@ -331,7 +331,19 @@ input{
     height: 422px;
     flex-shrink: 0;
 }
-
+.travel{
+    text-align: center;
+    width: 300px;
+    color: #FFF;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    top: -170px;
+    left: 366px;
+}
 
 /*************************
 **************************
@@ -434,6 +446,19 @@ media Query section
         height: 300px;
         margin-left: 50px;
         margin-top: -50px;
+    }
+    .travel{
+        text-align: center;
+        width: 200px;
+        color: #FFF;
+        height: 100px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FF5400;
+        position: relative;
+        top: -130px;
+        left: 245px;
     }
 }
 
