@@ -277,6 +277,38 @@ ul .home{
     margin: auto;
     margin-top: 20px;
 }
+
+/*****************Based on my own experience part*******************/
+.own-conten{
+    margin-top: 100px;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/girl.jpg);
+    background-size: cover ;
+    background-position: center;
+    border-radius: 10px;
+}
+.own-conten-title{
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    padding-top: 200px;
+    margin-left: 700px;
+}
+.won-content-description{
+    color: #FFF;
+    text-align: center;
+    width: 500px;
+    margin-left: 800px;
+    font-weight: 600;
+}
+.won-btn{
+    margin-top: 20px;
+    padding: 7px;
+    margin-left: 1000px;
+}
+
 /* subscribe section */
 .input-section-container{
     margin-top: 100px;
@@ -552,6 +584,12 @@ media Query section
         position: absolute;
         top: 310px;
         right: 210px;
+    }
+    .own-conten-title, .won-btn, .won-content-description{
+        margin-left: 0;
+    }
+    .won-btn{
+        margin-left: 200px;
     }
 }
 
