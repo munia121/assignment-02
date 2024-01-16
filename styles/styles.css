@@ -429,6 +429,9 @@ media Query section
     header{
         padding: 10px;
     }
+    .heading-container{
+        height: 100%;
+    }
     nav ul{
         display: none;
     }
@@ -438,6 +441,7 @@ media Query section
         width: 30px;
         border: 0;
         background-color: white;
+        padding: 30px;
     }
     .heading-title{
         font-size: 30px;
@@ -446,6 +450,7 @@ media Query section
     .btn-container{
         flex-direction: column;
         padding: 40px;
+        width: 70%;
     }
     .btn-4{
         width: 100%;
