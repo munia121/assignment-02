@@ -505,12 +505,15 @@ media Query section
         flex-direction: column;
     }
     .input-section{
-        width: 288px;
+        width: 50%;
         height: 300px;
         flex-shrink: 0;
     }
-    input, .input-section-des, hr, .sub-btn{
-        width: 300px;
+    input{
+        width: 100%;
+    }
+    .input-section-des, hr, .sub-btn{
+        width: 100%;
     }
     .input-section-img img{
         /* width: 335px;
@@ -523,16 +526,15 @@ media Query section
     }
     .travel{
         text-align: center;
-        width: 200px;
+        width: 50%;
         color: #FFF;
         height: 100px;
         transform: rotate(-19.628deg);
-        flex-shrink: 0;
         border-radius: 16px;
         background: #FF5400;
         position: relative;
-        top: -130px;
-        left: 245px;
+        left: 38%;
+        margin-top: 32px;
     }
     .footer-section{
         padding: 30px;
@@ -589,11 +591,19 @@ media Query section
         top: 310px;
         right: 35%;
     }
-    .own-conten-title, .won-btn, .won-content-description{
+    .own-conten{
+        width: 100%;
+        height: 100%;
+    }
+    .own-conten-title, .won-content-description{
         margin-left: 0;
+        width: 80%;
+        margin: auto;
     }
     .won-btn{
-        margin-left: 20 0px;
+        padding: 7px;
+        margin-left:40%;
+        text-align: center;
     }
 }
 
