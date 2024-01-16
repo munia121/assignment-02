@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +8,8 @@ body{
     margin: 0 auto;
     font-family: 'Mulish', sans-serif;
 }
+
+/***********header section***************/
 header{
     margin-top: 55px;
 }
@@ -41,8 +43,112 @@ ul .home{
     font-size: 18px;
     font-weight: 700;
 }
+.btn-ham{
+    display: none;
+}
+/**********header image part *************/
+.heading-container{
+    margin-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../image/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+.heading-content{
+    padding-top: 120px;
 
+}
+.heading-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.heading-description{
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 676px;
+    margin: auto;
+    margin-bottom: 75px;
+}
 
+.header-btn{
+    text-align: left;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
+.primary-btn{
+    height: 52px;
+    width: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.btn-container{
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 75px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px ;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+}
+.btn-4{
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    background: #FF5400;
+}
+/*******************our popular tour part***************** */
+.section-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+.section-heading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 600;
+}
+.section-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.section-list{
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 24px;
+    max-width: 525px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 
 
 
@@ -57,6 +163,39 @@ media Query section
 
 /* for mobile responsive */
 @media screen and (max-width:600px) {
-    
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        display: none;
+    }
+    .btn-ham{
+        display: inline;
+        font-size: 24px;
+        width: 30px;
+        border: 0;
+        background-color: white;
+    }
+    .heading-title{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .btn-container{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .btn-4{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .primary-btn{
+        width: 100%;
+    }
+    .heading-description{
+        margin-bottom: 10px;
+    }
+    .heading-content{
+        padding-top: 20px;
+    }
 }
 
